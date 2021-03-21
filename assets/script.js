@@ -52,10 +52,13 @@ $(function () {
       var saveButton = $("<button class='col-sm-1 saveBtn'>");
       var saveLock = $("<i class='fas fa-save'>");
       saveButton.append(saveLock);
+     
+      //My new notes weren't saving over my old notes when I reloaded the page. This should fix that. 
+      saveButton.attr("data-hour", militaryBusinessHoursOfTheDay[i]);
 
-    //append the timeblock, the notes, and save button and the new row together and to the container div
-     newRow.append(hourTimeblock, userInputsNotes, saveButton);
-      $(".container").append(newRow);
+      //append the timeblock, the notes, and save button and the new row together and to the container div
+       newRow.append(hourTimeblock, userInputsNotes, saveButton);
+       $(".container").append(newRow);
     }
   
 
