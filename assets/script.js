@@ -53,8 +53,8 @@ $(function () {
       var saveLock = $("<i class='fas fa-save'>");
       saveButton.append(saveLock);
 
-    //append the timeblock, the notes, and the new row together and to the container div
-     newRow.append(hourTimeblock, userInputsNotes);
+    //append the timeblock, the notes, and save button and the new row together and to the container div
+     newRow.append(hourTimeblock, userInputsNotes, saveButton);
       $(".container").append(newRow);
     }
   
