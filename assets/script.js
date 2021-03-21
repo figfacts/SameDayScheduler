@@ -35,7 +35,7 @@ $(function () {
         userInputsNotes.addClass("future");
       }
   
-      //If the user's notes are saved, then display it again when the page reloads
+      //If the user's notes are saved, then display it again when the pages reloads
       if (localStorage.getItem(militaryBusinessHoursOfTheDay[i]) != null) {
         userInputsNotes.text(localStorage.getItem(militaryBusinessHoursOfTheDay[i]));
       }
@@ -53,6 +53,9 @@ $(function () {
       var saveLock = $("<i class='fas fa-save'>");
       saveButton.append(saveLock);
 
+    //append the timeblock, the notes, and the new row together and to the container div
+     newRow.append(hourTimeblock, userInputsNotes);
+      $(".container").append(newRow);
     }
   
 
