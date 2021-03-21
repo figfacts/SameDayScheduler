@@ -40,14 +40,6 @@ $(function () {
         userInputsNotes.text(localStorage.getItem(militaryBusinessHoursOfTheDay[i]));
       }
 
-      //stores new notes when the respective save button is clicked
-      $(document).on("click", ".saveBtn", function (event) {
-        var storeHour = $(this).attr("data-hour");
-        var storeText = $(this).siblings(".description").val();
-    
-        localStorage.setItem(storeHour, storeText);
-      });
-
       //add the save button
       var saveButton = $("<button class='col-sm-1 saveBtn'>");
       var saveLock = $("<i class='fas fa-save'>");
@@ -62,4 +54,11 @@ $(function () {
     }
   
 
+      //stores new notes when the respective save button is clicked
+      $(document).on("click", ".saveBtn", function (event) {
+        var storeHour = $(this).attr("data-hour");
+        var storeText = $(this).siblings(".description").val();
+    
+        localStorage.setItem(storeHour, storeText);
+      });
   });
