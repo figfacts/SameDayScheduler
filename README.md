@@ -16,7 +16,13 @@ The following image shows the web application's appearance and functionality:
 
 
 ## Credits
-Thank you to Web Dev Simplified, as I referenced their videos to help create my same day scheduler. To view their channel, check out [Web Dev Simplified YouTube Channel](https://www.youtube.com/channel/UCFbNIlppjAuEX4znoulh0Cw).
+Thank you to dcode and Web Dev Simplified, as I referenced their videos to help create my same day scheduler. To view their channels, check out [dcode's YouTube Channel](https://www.youtube.com/channel/UCjX0FtIZBBVD3YoCcxnDC4g) and 
+[Web Dev Simplified's YouTube Channel](https://www.youtube.com/channel/UCFbNIlppjAuEX4znoulh0Cw).
+
+
+
+
+
 
 
 
