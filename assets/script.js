@@ -6,8 +6,8 @@ $(function () {
     //displays current date in the format of the .gif
     $("#currentDay").text(currentDate);
   
-    // I'm going to test with hours past the business day since I'm doing my project past business hours 
-    var militaryBusinessHoursOfTheDay = ["09", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19","20", "21", "22","23","24"];
+    // I'm going to test with hours past the business day since I'm doing my project past business hours will remove when finished. 
+    var militaryBusinessHoursOfTheDay = ["09", "10", "11", "12", "13", "14", "15", "16", "17"];
   
     //added loop to create the timeblock rows using the militaryBusinessHoursOfTheDay array
     for (let i = 0; i < militaryBusinessHoursOfTheDay.length; i++) {
@@ -53,7 +53,6 @@ $(function () {
        $(".container").append(newRow);
     }
   
-
       //stores new notes when the respective save button is clicked
       $(document).on("click", ".saveBtn", function (event) {
         var storeHour = $(this).attr("data-hour");
