@@ -3,7 +3,7 @@
 
 ## Description 
 
-The goal of this project was to create a daily planner calendar application where the user could enter an event for a timeslot and have the event stored in local storage. 
+The goal of this project was to create a daily planner calendar application where the user could enter an event for a timeslot and have the event stored in local storage when the page refreshes. 
 
 # Links
 To view my Same Day Scheduler webpage, check out [My Same Day Scheduler Webpage](https://figfacts.github.io/SameDayScheduler/).
@@ -12,11 +12,11 @@ To view my repository, check out [My repository](https://github.com/figfacts/Sam
 ## Mock-Up
 
 The following image shows the web application's appearance and functionality:
-![The Same Day Scheduler application displays a red block for the current hour or a green block if time is available.](./assets/05-third-party-apis-homework-demo.gif)
+![The Same Day Scheduler application displays a red block for the current hour timeslot, a green block for a future available timeslot, or a grey block for time that has already passed.](./assets/05-third-party-apis-homework-demo.gif)
 
 
 ## Credits
-Thank you to Web Dev Simplified, as I referenced their videos to help create my password generator. To view their channel, check out [Web Dev Simplified YouTube Channel](https://www.youtube.com/channel/UCFbNIlppjAuEX4znoulh0Cw).
+Thank you to Web Dev Simplified, as I referenced their videos to help create my same day scheduler. To view their channel, check out [Web Dev Simplified YouTube Channel](https://www.youtube.com/channel/UCFbNIlppjAuEX4znoulh0Cw).
 
 
 
